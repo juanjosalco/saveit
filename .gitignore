@@ -23,5 +23,8 @@ backend/alembic/versions/__pycache__/
 .vscode/
 .idea/
 
+# TypeScript incremental build cache
+*.tsbuildinfo
+
 # Never commit Bicep param files with real passwords (use .example variant)
 infra/main.parameters.local.json

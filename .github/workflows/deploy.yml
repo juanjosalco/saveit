@@ -35,7 +35,9 @@ jobs:
   build-and-deploy:
     needs: test
     runs-on: ubuntu-latest
-    environment: production
+    # Add `environment: production` later if/when you want manual approval
+    # gates. Doing so requires a matching federated credential subject of
+    # `repo:<owner>/<repo>:environment:production` on the Entra app.
     env:
       AZURE_RG:   ${{ vars.AZURE_RG }}
       ACR_NAME:   ${{ vars.ACR_NAME }}

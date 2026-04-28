@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: finapp-backend
+Version: 0.1.0
+Summary: Personal finance dashboard backend
+Requires-Python: >=3.10
+Requires-Dist: fastapi>=0.110
+Requires-Dist: uvicorn[standard]>=0.27
+Requires-Dist: sqlalchemy>=2.0
+Requires-Dist: pydantic>=2.5
+Requires-Dist: pypdf>=4.0
+Requires-Dist: python-multipart>=0.0.9
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: ruff>=0.3; extra == "dev"
+Requires-Dist: httpx>=0.27; extra == "dev"

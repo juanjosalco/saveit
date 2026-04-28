@@ -1,0 +1,10 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appName":         { "value": "saveit" },
+    "pgAdmin":         { "value": "saveitadmin" },
+    "pgAdminPassword": { "value": "REPLACE_ME_WITH_STRONG_PASSWORD" },
+    "corsOrigins":     { "value": "https://saveit.example.com" }
+  }
+}
